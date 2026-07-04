@@ -21,7 +21,7 @@ Página web que presenta mi perfil profesional como desarrolladora web fullstack
 
 ## Ver online
 
-https://marhtml.github.io/cv/
+https://marhtml.github.io/
 
 ## Autora
 
