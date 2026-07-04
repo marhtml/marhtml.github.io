@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Martina Trinidad Movia — Desarrolladora Web</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Syne:wght@700;800&family=Inter:wght@400;500;600&display=swap"
+    rel="stylesheet"
+  />
+</head>
+
+<body>
+
+  <!-- ENCABEZADO -->
+  <header>
+    <div class="container">
+      <h1>Martina <span>Trinidad Movia</span></h1>
+      <p class="tagline">Desarrolladora Web Jr &middot; JavaScript Fullstack</p>
+      <nav class="contact-bar" aria-label="Contacto">
+        <a href="mailto:moviamartina.cv@hotmail.com">
+          <span class="icon" aria-hidden="true">✉</span>
+          moviamartina.cv@hotmail.com
+        </a>
+        <a href="https://github.com/marhtml" target="_blank" rel="noopener">
+          <span class="icon" aria-hidden="true">⌥</span>
+          github.com/marhtml
+        </a>
+        <a href="https://www.linkedin.com/in/martina-movia/" target="_blank" rel="noopener">
+          <span class="icon" aria-hidden="true">↗</span>
+          LinkedIn
+        </a>
+        <span>
+          <span class="icon" aria-hidden="true">◎</span>
+          Ituzaingó, Buenos Aires
+        </span>
+      </nav>
+    </div>
+  </header>
+
+  <!-- CONTENIDO PRINCIPAL -->
+  <main>
+    <div class="container">
+
+      <!-- PERFIL -->
+      <section aria-labelledby="perfil-titulo">
+        <h2 class="section-label" id="perfil-titulo">Perfil</h2>
+        <p class="perfil-text">
+          Estudiante de Licenciatura en Informática (UNAHUR) orientada al desarrollo web fullstack con JavaScript.
+          Construí APIs REST con Node.js y Express, modelé bases de datos relacionales con SQL y Sequelize,
+          y desarrollé SPAs con React usando routing, estado global con Hooks y despliegue en GitHub Pages.
+          Cuento además con inglés C1 (avanzado) y experiencia laboral en entornos administrativos y de atención al cliente bilingüe.
+          Busco una pasantía o rol junior donde pueda contribuir desde el primer día.
+        </p>
+      </section>
+
+      <!-- TECNOLOGÍAS -->
+      <section aria-labelledby="tech-titulo">
+        <h2 class="section-label" id="tech-titulo">Tecnologías</h2>
+        <ul class="tech-grid" role="list">
+          <li class="tech-tag">Node.js</li>
+          <li class="tech-tag">Express</li>
+          <li class="tech-tag">React</li>
+          <li class="tech-tag">JavaScript</li>
+          <li class="tech-tag">TypeScript</li>
+          <li class="tech-tag">SQL</li>
+          <li class="tech-tag">Sequelize</li>
+          <li class="tech-tag">MongoDB</li>
+          <li class="tech-tag">Mongoose</li>
+          <li class="tech-tag">Joi</li>
+          <li class="tech-tag">HTML</li>
+          <li class="tech-tag">CSS</li>
+          <li class="tech-tag">React Bootstrap</li>
+          <li class="tech-tag">Git</li>
+          <li class="tech-tag">GitHub</li>
+        </ul>
+      </section>
+
+      <!-- PROYECTOS -->
+      <section aria-labelledby="proyectos-titulo">
+        <h2 class="section-label" id="proyectos-titulo">Proyectos</h2>
+        <ul class="proyectos-list" role="list">
+
+          <li>
+            <article class="proyecto-card">
+              <h3>Frontend de eCommerce</h3>
+              <span class="badge">Trabajo Colaborativo &middot; Desplegado</span>
+              <p>
+                SPA que simula el catálogo y flujo de compra completo de una tienda virtual.
+                Motor de filtrado de productos en tiempo real con Hooks (useState, useContext, useEffect),
+                diseño responsivo y validación de formularios de pago con React Bootstrap.
+                Desplegado en GitHub Pages.
+              </p>
+              <p class="stack">Stack: <span>React &middot; React Router DOM &middot; React Bootstrap &middot; JavaScript &middot; HTML &middot; CSS</span></p>
+              <a
+                class="btn-link"
+                href="https://toralessantiago.github.io/ecommerce"
+                target="_blank"
+                rel="noopener"
+              >Ver proyecto →</a>
+            </article>
+          </li>
+
+          <li>
+            <article class="proyecto-card">
+              <h3>API Red Social — Relacional</h3>
+              <span class="badge">Trabajo Colaborativo</span>
+              <p>
+                API RESTful que simula las funcionalidades principales de una red social.
+                Arquitectura de servidor con Node.js y Express, modelado de base de datos
+                relacional con SQL y Sequelize, y validación estricta de datos de entrada con Joi.
+              </p>
+              <p class="stack">Stack: <span>Node.js &middot; Express &middot; SQL &middot; Sequelize &middot; Joi</span></p>
+              <a
+                class="btn-link"
+                href="https://github.com/EP-UnaHur-2026C1/anti-social-relational-tp-grupo1"
+                target="_blank"
+                rel="noopener"
+              >Ver repositorio →</a>
+            </article>
+          </li>
+
+          <li>
+            <article class="proyecto-card">
+              <h3>API Red Social — Documental</h3>
+              <span class="badge">Trabajo Colaborativo &middot; En desarrollo</span>
+              <p>
+                Versión alternativa del mismo sistema usando base de datos no relacional.
+                Implementación con MongoDB y Mongoose sobre la misma arquitectura Express.
+              </p>
+              <p class="stack">Stack: <span>Node.js &middot; Express &middot; MongoDB &middot; Mongoose</span></p>
+              <a
+                class="btn-link"
+                href="https://github.com/EP-UnaHur-2026C1/anti-social-documental-tp-grupo1"
+                target="_blank"
+                rel="noopener"
+              >Ver repositorio →</a>
+            </article>
+          </li>
+
+        </ul>
+      </section>
+
+      <!-- CONTACTO -->
+      <section aria-labelledby="contacto-titulo">
+        <h2 class="section-label" id="contacto-titulo">Contacto</h2>
+        <ul role="list" style="display: flex; flex-direction: column; gap: 8px;">
+          <li>
+            <a href="mailto:moviamartina.cv@hotmail.com">moviamartina.cv@hotmail.com</a>
+          </li>
+          <li>
+            GitHub: <a href="https://github.com/marhtml" target="_blank" rel="noopener">github.com/marhtml</a>
+          </li>
+          <li>
+            LinkedIn: <a href="https://www.linkedin.com/in/martina-movia/" target="_blank" rel="noopener">linkedin.com/in/martina-movia</a>
+          </li>
+        </ul>
+      </section>
+
+    </div>
+  </main>
+
+  <!-- PIE -->
+  <footer>
+    <div class="container">
+      <p>2026 &mdash; Martina Trinidad Movia</p>
+    </div>
+  </footer>
+
+</body>
+</html>
