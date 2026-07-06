@@ -12,14 +12,14 @@
 :root {
   --bg:        #0f1117;
   --surface:   #1a1d27;
-  --border:    #2a2e3d;
+  --border:    #3d2a31;
   --accent:    #ca7f92;
   --accent2:   #9e3a50;
   --text:      #e4e6f0;
   --muted:     #a88b97;
   --white:     #ffffff;
 
-  --font-display: 'Helvetica', sans-serif;
+  --font-display: 'Bricolage Grotesque', sans-serif;
   --font-body:    'Inter', sans-serif;
 }
 
